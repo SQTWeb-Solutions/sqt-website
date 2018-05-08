@@ -12,6 +12,7 @@
 */
 // here you can define other routes that you might need
 Route::view('/','pages.home.page')->name('homepage');
+Route::view('/about','pages.about.page')->name('about');
 
 // Do not touch this line either
 Route::group(['domain' => 'sqt.test'], function () {
